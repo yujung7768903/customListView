@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<ItemData> item = new ArrayList<ItemData>();
         for (int i = 0; i < 10; i++) {
             ItemData data = new ItemData();
-            data.title = "데이터" + (i);
+            data.title = "데이터" + (i + 1);
             data.date = date[i];
             item.add(data);
         }
